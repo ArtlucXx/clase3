@@ -85,3 +85,58 @@ header h2{
     margin-left: 1%;
     text-shadow:   0 0 20px black (0,0,0,0.5);
 }
+
+h3{
+    font-size:1.4em;
+    margin-top: 20px;
+    color: black(0,0,0,0.5);
+}
+
+section{
+    background-color: powderblue;
+    padding: 15px;
+    border-radius: 8px 8px 8px 8px ;
+    margin-bottom: 20px;
+    box-shadow: 0 0 5px black(0,0,0,0.1);
+
+}
+
+
+section hr{
+    border: 0;
+    height: 2px;
+    background: purple;
+    margin: 10px 0;
+}
+
+ul{
+    list-style: none;
+
+}
+
+
+ul li{
+    padding: 5px 0;
+
+}
+
+
+i{
+    color: blueviolet;
+    margin-right: 8px;
+}
+
+
+address p{
+    margin: 5px;   
+}
+
+address a{
+    color: blueviolet;
+    text-decoration: none;
+}
+
+article{
+    margin-bottom: 15px;
+}
+

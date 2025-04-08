@@ -1,142 +1,125 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
-*{
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
- 
 
-body{
-    font-family: "Arimo"sans-serif;
-    background-color:aliceblue;
+body {
+    font-family: "Arimo", sans-serif;
+    background-color: aliceblue;
     margin: 5%;
-    line-height:1.6;
-
+    line-height: 1.6;
 }
 
-main{
+main {
     max-width: 800px;
     margin: auto;
     padding: 20px;
-    box-shadow:0 0 10px
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
 }
 
-header{
-    text-align:center;
-    color:blueviolet;
-    padding:20px 0;
+header {
+    text-align: center;
+    color: blueviolet;
+    padding: 20px 0;
     border-radius: 8px 8px 0 0;
     background-image: url(imagen/pepe.webp);
-    background-size:100%;
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
 
-header figure img{
-    border-radius: 50%;
-    border: 5px solid black;
-    box-shadow: 0 0 10px;
+.cabecera {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-header h1{
-    font-size: 2em ;
-    margin-top: 10px;
-}
-
-header h2{
-    font-size:1.2em;
-    opacity: 0.7;
-}
-
-.container{
-    background-color: black;
-    width: 80%;
-    margin: 0 auto;
-    position:relative;
-    z-index:1;
-
-}
-.contenedor_foto_perfil{
+.contenedor_foto_perfil {
     width: 280px;
     height: 280px;
-    border-radius:50%;
+    border-radius: 50%;
     overflow: hidden;
-   display: inline-block;
-   vertical-align: middle;
-   border: 7px solid black;
-  margin: 5%;
-  box-sizing: 0 0 20px black (0,0,0,0.5);
-
+    border: 7px solid black;
+    margin: 20px auto;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
 }
 
-.contenedor_foto_perfil img{
+.contenedor_foto_perfil img {
     width: 100%;
-    height: auto;
+    height: 100%;
+    object-fit: cover;
     display: block;
 }
 
-.cabecera{
-    position:relative;
+.nombre_puesto {
+    text-shadow: 0 0 20px rgba(0,0,0,0.5);
+    text-align: center;
 }
 
-.nombre_puesto{
-    display: inline-block;
-    vertical-align: middle;
-    margin-left: 1%;
-    text-shadow:   0 0 20px black (0,0,0,0.5);
+header h1 {
+    font-size: 2em;
+    margin-top: 10px;
 }
 
-h3{
-    font-size:1.4em;
+header h2 {
+    font-size: 1.2em;
+    opacity: 0.7;
+}
+
+.container {
+    background-color: black;
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+    z-index: 1;
+}
+
+h3 {
+    font-size: 1.4em;
     margin-top: 20px;
-    color: black(0,0,0,0.5);
+    color: rgba(0, 0, 0, 0.5);
 }
 
-section{
+section {
     background-color: powderblue;
     padding: 15px;
-    border-radius: 8px 8px 8px 8px ;
+    border-radius: 8px;
     margin-bottom: 20px;
-    box-shadow: 0 0 5px black(0,0,0,0.1);
-
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
 }
 
-
-section hr{
+section hr {
     border: 0;
     height: 2px;
     background: purple;
     margin: 10px 0;
 }
 
-ul{
+ul {
     list-style: none;
-
 }
 
-
-ul li{
+ul li {
     padding: 5px 0;
-
 }
 
-
-i{
+i {
     color: blueviolet;
     margin-right: 8px;
 }
 
-
-address p{
-    margin: 5px;   
+address p {
+    margin: 5px;
 }
 
-address a{
+address a {
     color: blueviolet;
     text-decoration: none;
 }
 
-article{
+article {
     margin-bottom: 15px;
 }
-
